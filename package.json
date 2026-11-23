@@ -1,0 +1,21 @@
+{
+    "name": "postgate",
+    "version": "0.1.0",
+    "license": "AGPL-3.0-only",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "start": "bun src/index.ts",
+        "dev": "bun --watch src/index.ts",
+        "test": "bun test",
+        "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+        "hono": "^4.13.20",
+        "x-client-transaction-id": "^0.3.3"
+    },
+    "devDependencies": {
+        "@types/bun": "^1.4.5",
+        "typescript": "^7.0.2"
+    }
+}
